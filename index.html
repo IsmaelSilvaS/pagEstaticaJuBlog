@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <title>Beauty Boss</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <script>
+        window.onload = function(){
+            document.querySelector(".menuMobile").addEventListener("click", function(){
+                if(document.querySelector(".menu ul").style.display == 'flex'){
+                    document.querySelector(".menu ul").style.display = 'none';
+                }else{
+                    document.querySelector(".menu ul").style.display = 'flex';
+                }
+            });
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="">
+                    <img src="./assets/imgs/logo.png" alt="logo">
+                </a>
+            </div>
+            <div class="menu">
+                <nav>
+                    <div class="menuMobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Loja</a></li>
+                        <li><a href="">Serviços</a></li>
+                        <li><a href="">Agendamentos</a></li>
+                        <li><a href="">Curso</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section id="banner">
+        <div class="container column">
+            <div class="banner_headline">
+                <h1>Sinta a beleza</h1>
+                <h2>Studio voltado para a área de estética.</h2>
+            </div>
+            <div class="banner_options">
+                <div class="banner1">
+                    <div class="banner_title">
+                        <h1>Serviços Personalizados</h1>
+                    </div>
+                    <div class="banner_desc">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text.</p>
+                    </div>
+                    <a href="">Veja mais</a>
+                </div>
+                <div class="banner2">
+                    <div class="banner_title">
+                        <h1>Loja completa pra você</h1>
+                    </div>
+                    <div class="banner_desc">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text.</p>
+                    </div>
+                    <a href="">Veja mais</a>
+                </div>
+                <div class="banner3">
+                    <div class="banner_title">
+                        <h1>Horários de atendimentos</h1>
+                        <div class="banner_hours">
+                            <div class="banner_day">Segunda - Sexta</div>
+                            <div class="banner_hour">08h00 - 18h00</div>
+                        </div>
+                        <div class="banner_hours">
+                            <div class="banner_day">Sábado</div>
+                            <div class="banner_hour">08h00 - 13h00</div>
+                        </div>
+                        <div class="banner_hours">
+                            <div class="banner_day">Domingo</div>
+                            <div class="banner_hour">Fechado</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="geral">
+        <div class="container">
+            <section>
+                <div class="widget_title">
+                    <div class="widget_title_text">Ultimas postagens</div>
+                    <div class="widget_title_bar"></div>
+                </div>
+                <div class="widget_body article_body">
+                    <article>
+                        <a href="">
+                            <div class="news_data">
+                                <div class="news_posted_at">31 AGO 22</div>
+                                <div class="news_comments">2</div>
+                            </div>
+                            <div class="news_thumbnail">
+                                <img src="./assets/imgs/news.jpg" alt="ultimas noticias">
+                            </div>
+                            <div class="news_title">
+                                Ultimas noticias
+                            </div>
+                            <div class="news_resume">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text.
+                            </div>
+                        </a>
+                    </article>
+                    <article>
+                        <a href="">
+                            <div class="news_data">
+                                <div class="news_posted_at">31 AGO 22</div>
+                                <div class="news_comments">2</div>
+                            </div>
+                            <div class="news_thumbnail">
+                                <img src="./assets/imgs/news.jpg" alt="ultimas noticias">
+                            </div>
+                            <div class="news_title">
+                                Ultimas noticias
+                            </div>
+                            <div class="news_resume">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text.
+                            </div>
+                        </a>
+                    </article>
+                    <article>
+                        <a href="">
+                            <div class="news_data">
+                                <div class="news_posted_at">31 AGO 22</div>
+                                <div class="news_comments">2</div>
+                            </div>
+                            <div class="news_thumbnail">
+                                <img src="./assets/imgs/news.jpg" alt="ultimas noticias">
+                            </div>
+                            <div class="news_title">
+                                Ultimas noticias
+                            </div>
+                            <div class="news_resume">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text.
+                            </div>
+                        </a>
+                    </article>
+                    <article>
+                        <a href="">
+                            <div class="news_data">
+                                <div class="news_posted_at">31 AGO 22</div>
+                                <div class="news_comments">2</div>
+                            </div>
+                            <div class="news_thumbnail">
+                                <img src="./assets/imgs/news.jpg" alt="ultimas noticias">
+                            </div>
+                            <div class="news_title">
+                                Ultimas noticias
+                            </div>
+                            <div class="news_resume">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text.
+                            </div>
+                        </a>
+                    </article>
+                </div>
+            </section>
+            <aside>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Cursos</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body cursos_body">
+                        <div class="cursos"></div>
+                        <div class="cursos"></div>
+                        <div class="cursos"></div>
+                        <div class="cursos"></div>
+                        <div class="cursos"></div>
+                        <div class="cursos"></div>
+                    </div>
+                    <div class="widget_title">
+                        <div class="widget_title_text">Faça um depoimento</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body">
+                        <h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
+                        <ul>
+                            <li>nosso telefone: 9-9999-9999</li>
+                            <li>nosso e-mail: contato@beautyboss.com.br</li>
+                            <li>preencha nosso formulário <a href="">aqui</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </section>
+    <footer>
+        <div class="container flexColumn">
+            <div class="footer_menu">
+                <div class="fm_1">
+                    <a href="">
+                        <div class="banner_title">
+                            <h1>Seja uma Beauty</h1>
+                        </div>
+                        <div class="banner_desc">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="fm_2">
+                    <a href="">
+                        <div class="banner_title">
+                            <h1>Nossos serviços</h1>
+                        </div>
+                        <div class="banner_desc">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="fm_3">
+                    <a href="">
+                        <div class="banner_title">
+                            <h1>Pagamento Online</h1>
+                        </div>
+                        <div class="banner_desc">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="footer_area">
+                <div class="footer_areaitem">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Beauty Academy</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body beautyAc">
+                        <h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
+                        <ul>
+                            <li>nosso telefone: 9-9999-9999</li>
+                            <li>nosso e-mail: contato@beautyboss.com.br</li>
+                            <li>preencha nosso formulário <a href="">aqui</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer_areaitem">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Ultimas postagens</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body">
+                        <div class="footer_latest_news">
+                            <p>➡ Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <span>Há 4 dias</span>
+                        </div>
+                        <div class="footer_latest_news">
+                            <p>➡ Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <span>Há 4 dias</span>
+                        </div>
+                        <div class="footer_latest_news">
+                            <p>➡ Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <span>Há 4 dias</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_areaitem">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Ultimas publicações</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body">
+                        <div class="footer_latest_news">
+                            <p>➡ Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <span>Há 4 dias</span>
+                        </div>
+                        <div class="footer_latest_news">
+                            <p>➡ Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <span>Há 4 dias</span>
+                        </div>
+                        <div class="footer_latest_news">
+                            <p>➡ Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <span>Há 4 dias</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_copy">
+                Copyright - Todos os direitos reservados.
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
